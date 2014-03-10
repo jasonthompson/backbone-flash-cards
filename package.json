@@ -1,0 +1,54 @@
+{
+  "name": "backbone-flash-cards",
+  "description": "Simple flash card application.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jasonthompson/backbone-flash-cards",
+  "author": {
+    "name": "Jason Thompson",
+    "email": "jason@jthompson.ca",
+    "url": "http://jthompson.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jasonthompson/backbone-flash-cards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonthompson/backbone-flash-cards/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jasonthompson/backbone-flash-cards/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+ "devDependencies": {
+    "mocha": "latest",
+    "jshint": "latest",
+    "shelljs": "latest",
+    "chai": "latest",
+    "uglify-js": "latest",
+    "browserify": "latest",
+    "grunt": "latest",
+    "grunt-mocha-test": "~0.8.1",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-browserify": "~1.3.0",
+    "grunt-contrib-livereload": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-sass": "latest",
+    "ical2json": "latest"
+   },
+
+   "keywords": [
+    "backbone",
+    "plugin"
+  ]
+}
